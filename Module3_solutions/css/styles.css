@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:#008000 ;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#ADFF2F ;
+  border-radius: 0;
+  border: 0;
+  height: auto;
+}
+
+.navbar-brand{
+  padding:5px;
+}
+.navbar-brand h1{ 
+  float:left;
+  font-family: 'Lora', serif;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+   font-family: 'Lora', serif;
+  font-size: .7em;
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+
+}
+#collapsable-nav a{
+  font-size:1.2em;
+}
+#collapsable-nav a span{
+  font-size:1em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  
+
+}
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  .row{
+    
+    text-align: center
+  }
+  .row > div {
+    background-color:#800080;
+    margin:auto;
+    padding:auto;
+
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding:10px;
+      margin top:10px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
